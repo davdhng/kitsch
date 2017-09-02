@@ -1,0 +1,51 @@
+$button-background-primary: linear-gradient(45deg, #3bd3dd, #33eaa4) !default;
+
+@mixin box_shadow ($level) {
+    @if $level == 1 {
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    } @else if $level == 2 {
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    } @else if $level == 3 {
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    } @else if $level == 4 {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    } @else if $level == 5 {
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    }
+}
+
+@mixin transition($duration) {
+    -webkit-transition: $duration;
+    -moz-transition: $duration;
+    -ms-transition: $duration;
+    -o-transition: $duration;
+    transition: $duration;
+}
+
+.btn {
+    background: $button-background-primary;
+    border: 0.1rem solid $button-background-primary;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 800;
+    height: 4rem;
+    letter-spacing: 0.1rem; 
+    line-height: 3.8rem;
+    margin: 0 auto;
+    padding: 1rem;
+    line-height: 1.6rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+    &:hover {
+        @include transition(0.2s);
+        @include box-shadow(2);
+        outline: 0;
+
+    }
+}

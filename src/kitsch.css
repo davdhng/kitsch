@@ -1,0 +1,47 @@
+*,
+*:after,
+*:before {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  color: #0a0b0c;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 1.6em;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  line-height: 1.6; }
+
+.btn {
+  background: linear-gradient(45deg, #3bd3dd, #33eaa4);
+  border: 0.1rem solid linear-gradient(45deg, #3bd3dd, #33eaa4);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 800;
+  height: 4rem;
+  letter-spacing: 0.1rem;
+  line-height: 3.8rem;
+  margin: 0 auto;
+  padding: 1rem;
+  line-height: 1.6rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+  white-space: nowrap; }
+  .btn:hover {
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    outline: 0; }
+
+/*# sourceMappingURL=kitsch.css.map */
