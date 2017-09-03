@@ -9,7 +9,7 @@ html {
 
 body {
   color: #0a0b0c;
-  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 1.6em;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -17,31 +17,53 @@ body {
 
 .btn {
   background: linear-gradient(45deg, #3bd3dd, #33eaa4);
-  border: 0.1rem solid linear-gradient(45deg, #3bd3dd, #33eaa4);
-  border-radius: 0.5rem;
+  border: 0.1rem solid transparent;
+  border-radius: 2rem;
   cursor: pointer;
   color: #FFFFFF;
   display: inline-block;
   font-size: 1.5rem;
-  font-weight: 800;
+  font-weight: 700;
   height: 4rem;
   letter-spacing: 0.1rem;
   line-height: 3.8rem;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0 3rem;
   line-height: 1.6rem;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   vertical-align: middle;
-  white-space: nowrap; }
-  .btn:hover {
-    -webkit-transition: 0.2s;
-    -moz-transition: 0.2s;
-    -ms-transition: 0.2s;
-    -o-transition: 0.2s;
-    transition: 0.2s;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  white-space: nowrap;
+  transition: box-shadow 0.2s ease-in-out;
+  -moz-transition: box-shadow 0.2s ease-in-out;
+  -webkit-transition: box-shadow 0.2s ease-in-out;
+  -o-transition: box-shadow 0.2s ease-in-out;
+  -ms-transition: box-shadow 0.2s ease-in-out; }
+  .btn [type=submit]:hover, .btn:focus, .btn:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     outline: 0; }
+
+.btn-outline {
+  background: transparent;
+  color: #3bd3dd;
+  border: 0.1rem solid #3bd3dd;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out; }
+  .btn-outline [type=submit]:hover, .btn-outline:focus, .btn-outline:hover {
+    background: linear-gradient(45deg, #3bd3dd, #33eaa4);
+    border: 0.1rem solid transparent;
+    color: white; }
+
+.btn.disabled,
+.btn:disabled,
+.btn[disabled] {
+  opacity: 0.65;
+  box-shadow: none;
+  pointer-events: none;
+  cursor: default; }
 
 /*# sourceMappingURL=kitsch.css.map */
