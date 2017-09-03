@@ -1,11 +1,11 @@
 $button-background-primary: linear-gradient(45deg, #3bd3dd, #33eaa4) !default;
 
-@mixin transition($duration) {
-    -webkit-transition: $duration ease-in-out;
-    -moz-transition: $duration ease-in-out;
-    -ms-transition: $duration ease-in-out;
-    -o-transition: $duration ease-in-out;
-    transition: $duration ease-in-out;
+@mixin transition($object, $duration) {
+    -webkit-transition: $object $duration ease-in-out;
+    -moz-transition: $object $duration ease-in-out;
+    -ms-transition: $object $duration ease-in-out;
+    -o-transition: $object $duration ease-in-out;
+    transition: $object $duration ease-in-out;
 }
 
 .btn {
@@ -28,11 +28,7 @@ $button-background-primary: linear-gradient(45deg, #3bd3dd, #33eaa4) !default;
     text-transform: uppercase;
     vertical-align: middle;
     white-space: nowrap;
-    transition: box-shadow 0.2s ease-in-out;
-    -moz-transition: box-shadow 0.2s ease-in-out; 
-    -webkit-transition: box-shadow 0.2s ease-in-out; 
-    -o-transition: box-shadow 0.2s ease-in-out; 
-    -ms-transition: box-shadow 0.2s ease-in-out;
+    @include transition(box-shadow, 0.2s);
     [type=submit]:hover,
     &:focus, 
     &:hover {
@@ -45,11 +41,7 @@ $button-background-primary: linear-gradient(45deg, #3bd3dd, #33eaa4) !default;
     background: transparent;
     color: #3bd3dd;
     border: 0.1rem solid #3bd3dd;
-    transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out; 
-    -webkit-transition: all 0.2s ease-in-out; 
-    -o-transition: all 0.2s ease-in-out; 
-    -ms-transition: all 0.2s ease-in-out;
+    @include transition(all, 0.2s);
     [type=submit]:hover,
     &:focus, 
     &:hover {

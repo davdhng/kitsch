@@ -35,11 +35,11 @@ body {
   text-transform: uppercase;
   vertical-align: middle;
   white-space: nowrap;
-  transition: box-shadow 0.2s ease-in-out;
-  -moz-transition: box-shadow 0.2s ease-in-out;
   -webkit-transition: box-shadow 0.2s ease-in-out;
+  -moz-transition: box-shadow 0.2s ease-in-out;
+  -ms-transition: box-shadow 0.2s ease-in-out;
   -o-transition: box-shadow 0.2s ease-in-out;
-  -ms-transition: box-shadow 0.2s ease-in-out; }
+  transition: box-shadow 0.2s ease-in-out; }
   .btn [type=submit]:hover, .btn:focus, .btn:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     outline: 0; }
@@ -48,11 +48,11 @@ body {
   background: transparent;
   color: #3bd3dd;
   border: 0.1rem solid #3bd3dd;
-  transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out; }
+  transition: all 0.2s ease-in-out; }
   .btn-outline [type=submit]:hover, .btn-outline:focus, .btn-outline:hover {
     background: linear-gradient(45deg, #3bd3dd, #33eaa4);
     border: 0.1rem solid transparent;
