@@ -1,13 +1,6 @@
-$button-background-primary: linear-gradient(45deg, #3bd3dd, #33eaa4) !default;
 
-@mixin transition($object, $duration) {
-    -webkit-transition: $object $duration ease-in-out;
-    -moz-transition: $object $duration ease-in-out;
-    -ms-transition: $object $duration ease-in-out;
-    -o-transition: $object $duration ease-in-out;
-    transition: $object $duration ease-in-out;
-}
 
+button,
 .btn {
     background: $button-background-primary;
     border: 0.1rem solid transparent;
@@ -20,7 +13,7 @@ $button-background-primary: linear-gradient(45deg, #3bd3dd, #33eaa4) !default;
     height: 4rem;
     letter-spacing: 0.1rem; 
     line-height: 3.8rem;
-    margin: 0 auto;
+    margin: 1.5rem;
     padding: 0 3rem;
     line-height: 1.6rem;
     text-align: center;
@@ -35,12 +28,10 @@ $button-background-primary: linear-gradient(45deg, #3bd3dd, #33eaa4) !default;
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         outline: 0;
     }
-}
-
-.btn-outline {
+    &.btn-outline {
     background: transparent;
-    color: #3bd3dd;
-    border: 0.1rem solid #3bd3dd;
+    color: $color-primary;
+    border: 0.1rem solid;
     @include transition(all, 0.2s);
     [type=submit]:hover,
     &:focus, 
@@ -48,14 +39,15 @@ $button-background-primary: linear-gradient(45deg, #3bd3dd, #33eaa4) !default;
         background: $button-background-primary;
         border: 0.1rem solid transparent;
         color: white;
-
+        }
     }
 }
+
 
 .btn.disabled,
 .btn:disabled,
 .btn[disabled] {
-    opacity: 0.65;
+    opacity: 0.50;
     box-shadow: none;
     pointer-events: none;
     cursor: default;
