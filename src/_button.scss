@@ -25,7 +25,7 @@ button,
     [type=submit]:hover,
     &:focus, 
     &:hover {
-        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        box-shadow: 0 10px 20px rgba(51, 234, 164, 0.19), 0 6px 6px rgba(51, 234, 164, 0.23) ;
         outline: 0;
     }
     &.btn-outline {
