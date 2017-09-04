@@ -21,6 +21,7 @@ button,
   background: linear-gradient(45deg, #3bd3dd, #33eaa4);
   border: 0.1rem solid transparent;
   border-radius: 2rem;
+  box-shadow: 0 10px 20px rgba(51, 234, 164, 0.19), 0 6px 6px rgba(51, 234, 164, 0.23);
   cursor: pointer;
   color: #FFFFFF;
   display: inline-block;
@@ -46,25 +47,22 @@ button,
   .btn [type=submit]:hover,
   .btn:focus,
   .btn:hover {
-    box-shadow: 0 10px 20px rgba(51, 234, 164, 0.19), 0 6px 6px rgba(51, 234, 164, 0.23);
+    background: linear-gradient(45deg, #22b9c3, #16d48b);
     outline: 0; }
-  button.btn-outline,
-  .btn.btn-outline {
-    background: transparent;
-    color: #3bd3dd;
-    border: 0.1rem solid;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out; }
-    button.btn-outline [type=submit]:hover, button.btn-outline:focus, button.btn-outline:hover,
-    .btn.btn-outline [type=submit]:hover,
-    .btn.btn-outline:focus,
-    .btn.btn-outline:hover {
-      background: linear-gradient(45deg, #3bd3dd, #33eaa4);
-      border: 0.1rem solid transparent;
-      color: white; }
+
+.btn-outline {
+  background: transparent;
+  color: #3bd3dd;
+  border: 0.1rem solid;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+  .btn-outline [type=submit]:hover, .btn-outline:focus, .btn-outline:hover {
+    background: linear-gradient(45deg, #3bd3dd, #33eaa4);
+    border: 0.1rem solid transparent;
+    color: white; }
 
 .btn.disabled,
 .btn:disabled,
@@ -81,12 +79,12 @@ button,
   width: 100%; }
 
 a {
-  color: #3bd3dd;
+  color: #0a0b0c;
   text-decoration: none;
   transition: color 0.2s ease-in-out; }
   a:hover {
     cursor: pointer;
-    color: #7ce2e8; }
+    color: #3bd3dd; }
 
 b,
 strong {
@@ -128,6 +126,7 @@ h6 {
   line-height: 1.6; }
 
 p {
-  margin-top: 0; }
+  margin-top: 0;
+  color: #333333; }
 
 /*# sourceMappingURL=kitsch.css.map */

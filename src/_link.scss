@@ -1,9 +1,9 @@
 a {
-    color: $color-primary;
+    color: $text-primary;
     text-decoration: none;
     transition: color 0.2s ease-in-out;
     &:hover {
         cursor: pointer;
-        color: lighten($color-primary, 15%);
+        color: $color-primary;
     }
 }
