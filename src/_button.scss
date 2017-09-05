@@ -26,8 +26,11 @@ button,
     [type=submit]:hover,
     &:focus, 
     &:hover {
-        background: linear-gradient(45deg, darken($color-primary, 10%), darken($color-secondary, 10%));
+        background: linear-gradient(45deg, lighten($color-primary, 10%), lighten($color-secondary, 10%));
+        box-shadow: 0 10px 20px 5px rgba(51, 234, 164, 0.19), 0 6px 6px rgba(51, 234, 164, 0.23) ;
         outline: 0;
+        position: relative;
+        top: -1px;
     }
 }
 

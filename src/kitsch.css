@@ -47,8 +47,11 @@ button,
   .btn [type=submit]:hover,
   .btn:focus,
   .btn:hover {
-    background: linear-gradient(45deg, #22b9c3, #16d48b);
-    outline: 0; }
+    background: linear-gradient(45deg, #66dde5, #61efb9);
+    box-shadow: 0 10px 20px 5px rgba(51, 234, 164, 0.19), 0 6px 6px rgba(51, 234, 164, 0.23);
+    outline: 0;
+    position: relative;
+    top: -1px; }
 
 .btn-outline {
   background: transparent;
