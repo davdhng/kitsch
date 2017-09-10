@@ -75,6 +75,52 @@ button,
   pointer-events: none;
   cursor: default; }
 
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=search],
+input[type=number],
+input[type=file],
+input[type=tel],
+input[type=url],
+select,
+textarea,
+textarea[type=text] {
+  background-color: transparent;
+  border: none;
+  border-bottom: #333333;
+  border-radius: 0;
+  outline: none;
+  height: 1rem;
+  width: 100%;
+  box-shadow: none;
+  box-sizing: content-box; }
+  input[type=text]:focus:not([readonly]),
+  input[type=password]:focus:not([readonly]),
+  input[type=email]:focus:not([readonly]),
+  input[type=search]:focus:not([readonly]),
+  input[type=number]:focus:not([readonly]),
+  input[type=file]:focus:not([readonly]),
+  input[type=tel]:focus:not([readonly]),
+  input[type=url]:focus:not([readonly]),
+  select:focus:not([readonly]),
+  textarea:focus:not([readonly]),
+  textarea[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid linear-gradient(45deg, #3bd3dd, #33eaa4);
+    box-shadow: 0 1px 0 0 linear-gradient(45deg, #3bd3dd, #33eaa4); }
+  input[type=text]:focus:not([readonly]) + label,
+  input[type=password]:focus:not([readonly]) + label,
+  input[type=email]:focus:not([readonly]) + label,
+  input[type=search]:focus:not([readonly]) + label,
+  input[type=number]:focus:not([readonly]) + label,
+  input[type=file]:focus:not([readonly]) + label,
+  input[type=tel]:focus:not([readonly]) + label,
+  input[type=url]:focus:not([readonly]) + label,
+  select:focus:not([readonly]) + label,
+  textarea:focus:not([readonly]) + label,
+  textarea[type=text]:focus:not([readonly]) + label {
+    color: linear-gradient(45deg, #3bd3dd, #33eaa4); }
+
 .container {
   margin: 0 auto;
   max-width: 112rem;
@@ -105,7 +151,6 @@ h6 {
 
 h1 {
   font-size: 5rem;
-  font-weight: 800;
   line-height: 1.20; }
 
 h2 {

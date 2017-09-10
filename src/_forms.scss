@@ -1,0 +1,28 @@
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=search],
+input[type=number],
+input[type=file],
+input[type=tel],
+input[type=url],
+select,
+textarea,
+textarea[type=text] {
+    background-color: transparent;
+    border: none;
+    border-bottom: $text-secondary;
+    border-radius: 0;
+    outline: none;
+    height: 1rem;
+    width: 100%;
+    box-shadow: none;
+    box-sizing: content-box;
+    &:focus:not([readonly]) {
+        border-bottom: 1px solid $button-background-primary;
+        box-shadow: 0 1px 0 0 $button-background-primary;
+    }
+    &:focus:not([readonly])+label {
+        color: $button-background-primary;
+    }
+}
