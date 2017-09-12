@@ -4,7 +4,7 @@
     <p align="center">Obtrusively garish CSS framework.</p>
 </p>
 
-### This project is still in Alpha. 
+### This project is still in Pre-Alpha. 
 
 
 ## License

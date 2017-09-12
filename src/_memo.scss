@@ -1,0 +1,17 @@
+.memo {
+    //background-color: $button-background-primary;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(51, 234, 164, 0.19), 0 6px 6px rgba(51, 234, 164, 0.23) ;
+}
+
+.memo-head {
+    border-top: solid 10rem $button-background-primary;
+    align-items: center;
+    background-color: $button-background-primary;
+    color: $button-background-primary;
+    display: flex;
+    line-height: 1.25;
+    position: relative;
+}
