@@ -19,10 +19,10 @@ textarea[type=text] {
     box-shadow: none;
     box-sizing: content-box;
     &:focus:not([readonly]) {
-        border-bottom: 1px solid $button-background-primary;
-        box-shadow: 0 1px 0 0 $button-background-primary;
+        border-bottom: 1px solid linear-gradient(45deg, $blue, $green);
+        box-shadow: 0 1px 0 0 linear-gradient(45deg, $blue, $green)y;
     }
     &:focus:not([readonly])+label {
-        color: $button-background-primary;
+        color: linear-gradient(45deg, $blue, $green);
     }
 }

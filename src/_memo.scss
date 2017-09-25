@@ -7,10 +7,10 @@
 }
 
 .memo-head {
-    border-top: solid 10rem $button-background-primary;
+    border-top: solid 10rem linear-gradient(45deg, $yellow, $red);
     align-items: center;
-    background-color: $button-background-primary;
-    color: $button-background-primary;
+    background-color: linear-gradient(45deg, $yellow, $red);
+    color: linear-gradient(45deg, $yellow, $red);
     display: flex;
     line-height: 1.25;
     position: relative;

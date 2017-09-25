@@ -2,7 +2,7 @@
 
 button,
 .btn {
-    background: $button-background-primary;
+    background: linear-gradient(45deg, $blue, $green);
     border: 0.1rem solid transparent;
     border-radius: 2rem;
     box-shadow: 0 10px 20px rgba(51, 234, 164, 0.19), 0 6px 6px rgba(51, 234, 164, 0.23) ;
@@ -26,7 +26,7 @@ button,
     [type=submit]:hover,
     &:focus, 
     &:hover {
-        background: linear-gradient(45deg, lighten($color-primary, 10%), lighten($color-secondary, 10%));
+        background: linear-gradient(45deg, lighten($green, 10%), lighten($blue, 10%));
         box-shadow: 0 10px 20px 5px rgba(51, 234, 164, 0.19), 0 6px 6px rgba(51, 234, 164, 0.23) ;
         outline: 0;
         position: relative;
@@ -36,13 +36,13 @@ button,
 
 .btn-outline {
     background: transparent;
-    color: $color-primary;
+    color: $green;
     border: 0.1rem solid;
     @include transition(all, 0.2s);
     [type=submit]:hover,
     &:focus, 
     &:hover {
-        background: $button-background-primary;
+        background: linear-gradient(45deg, $blue, $green);
         border: 0.1rem solid transparent;
         color: white;
     }
