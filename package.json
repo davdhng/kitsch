@@ -1,0 +1,19 @@
+{
+  "name": "kitsch-css",
+  "version": "1.0.0",
+  "description": "Obtrusively Garish CSS Framework",
+  "main": "dist/kitsch.min.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davdhng/kitsch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davdhng/kitsch/issues"
+  },
+  "homepage": "https://github.com/davdhng/kitsch#readme"
+}
