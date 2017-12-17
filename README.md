@@ -22,7 +22,7 @@ __Use the CDN__
 ```
 
 ## How to use it
-[Documentation can be found here][https://davdhng.github.io/kitsch]
+[Documentation can be found here](http://davdhng.github.io/kitsch)
 
 ## License
 Licensed under the MIT License by David Huang
