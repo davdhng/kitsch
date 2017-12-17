@@ -21,5 +21,8 @@ __Use the CDN__
 <link rel="stylesheet" href="https://unpkg.com/kitsch-css" />
 ```
 
+## How to use it
+[Documentation can be found here](https://www.davdhng.github.io/kitsch)
+
 ## License
 Licensed under the MIT License by David Huang
