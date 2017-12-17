@@ -1,15 +1,18 @@
 code {
+  color: #fff;
   background: #262f3d;
-  border-radius: 1rem;
-  font-size: 86%;
+  border-radius: .5rem;
   margin: 0 0.5rem;
-  padding: 0.2rem 0.5rem;
-  white-space: nowrap; }
+  padding: 1rem;
+  white-space: nowrap;
+  word-wrap: break-word; }
 
 pre {
+  color: white;
   background: #262f3d;
-  overflow-y: hidden; }
-  pre:code {
+  overflow-y: hidden;
+  border-radius: .5rem; }
+  pre code {
     border-radius: 0;
     display: block;
     padding: 1rem 5rem;
@@ -152,12 +155,13 @@ textarea[type=text] {
   margin: 1rem auto; }
 
 a {
-  color: #0a0b0c;
+  color: #858AE3;
   text-decoration: none;
   transition: color 0.2s ease-in-out; }
   a:hover {
     cursor: pointer;
-    color: #3bd3dd; }
+    color: #3bd3dd;
+    font-weight: 700; }
 
 .memo {
   border-radius: 1rem;
@@ -215,6 +219,16 @@ h6 {
 p {
   margin-top: 0;
   color: #4d5a70; }
+
+.title {
+  font-weight: 700; }
+
+.highlight {
+  font-weight: 700;
+  background-image: linear-gradient(45deg, #858AE3, #3bd3dd);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text; }
 
 .underline {
   background-image: linear-gradient(45deg, #3bd3dd, #42f48f);
