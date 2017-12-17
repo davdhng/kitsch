@@ -14,4 +14,13 @@ ul {
     text-decoration: none;
     padding-left: 1rem; }
 
+.meth {
+  color: #3bd3dd; }
+
+.glob {
+  color: #FC9D88; }
+
+.str {
+  color: #42f48f; }
+
 /*# sourceMappingURL=homepage.css.map */

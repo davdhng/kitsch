@@ -1,3 +1,5 @@
+@import "src/_colors.scss";
+
 .header {
   height: 100vh;
   text-align: center;
@@ -15,4 +17,14 @@ ul {
     text-decoration: none;
     padding-left: 1rem;
   }
+}
+
+.meth {
+  color: $blue;
+}
+.glob {
+  color: $pink;
+}
+.str {
+  color: $green;
 }
