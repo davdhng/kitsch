@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/kitsch-css">
+    <link rel="stylesheet" href="homepage.css">
     <title>Kitsch</title>
 </head>
 <body>
 <div class="container">
-    <div class="container" align="center">
+    <div class="header" align="center">
         <br>
         <br>
         <img src="kitschlogo.png" alt="Logo" align="center">
@@ -17,8 +18,19 @@
         <h1 align="center"><b>Kitsch</b></h1>
         <p align="center">The "Minimalist" CSS Framework</p>
         <button class="btn">Download Kitsch</button>
-        <button class="btn btn-outline">Something Else</button>
+        <ul class="links">
+          <li><a href="#install">Install</a></li>
+          <li><a href="#">Use</a></li>
+          <li><a href="https://github.com/davdhng/kitsch">Github</a></li>
+        </ul>
     </div>
+    <section id="install">
+      <h1>Installing Kitsch</h1>
+      <p>The easiest way to install Kitsch is to simply link to the CDN.</p>
+      <pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/kitsch-css&quot;&gt;</code></pre>
+      <p>You can also use it in a project with NPM.</p>
+      <pre><code>$ npm install kitsch-css</code></pre>
+    </section>
     <h2><b>Typography</b></h2>
     <p>Blah blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahv</p>
     <h1>H1 Heading</h1>
