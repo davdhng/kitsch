@@ -4,8 +4,6 @@
     <p align="center">Obtrusively garish CSS framework.</p>
 </p>
 
-### This project is dead. 
-
 
 ## License
 Licensed under the MIT License by David Huang
