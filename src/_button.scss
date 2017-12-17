@@ -12,11 +12,10 @@ button,
     font-size: 1.5rem;
     font-weight: 700;
     height: 4rem;
-    letter-spacing: 0.1rem; 
+    letter-spacing: 0.1rem;
     line-height: 3.8rem;
     margin: 1.5rem;
     padding: 0 3rem;
-    line-height: 1.6rem;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -24,7 +23,7 @@ button,
     white-space: nowrap;
     @include transition(box-shadow, 0.2s);
     [type=submit]:hover,
-    &:focus, 
+    &:focus,
     &:hover {
         background: linear-gradient(45deg, lighten($green, 10%), lighten($blue, 10%));
         box-shadow: 0 10px 20px 5px rgba(51, 234, 164, 0.19), 0 6px 6px rgba(51, 234, 164, 0.23) ;
@@ -40,7 +39,7 @@ button,
     border: 0.1rem solid;
     @include transition(all, 0.2s);
     [type=submit]:hover,
-    &:focus, 
+    &:focus,
     &:hover {
         background: linear-gradient(45deg, $blue, $green);
         border: 0.1rem solid transparent;

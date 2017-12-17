@@ -52,7 +52,6 @@ button,
   line-height: 3.8rem;
   margin: 1.5rem;
   padding: 0 3rem;
-  line-height: 1.6rem;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -235,5 +234,8 @@ p {
   background-repeat: no-repeat;
   background-size: 100% 1rem;
   background-position: 0 88%; }
+
+.drop-shadow {
+  box-shadow: 0 10px 20px rgba(51, 234, 164, 0.19), 0 6px 6px rgba(51, 234, 164, 0.23); }
 
 /*# sourceMappingURL=kitsch.css.map */
