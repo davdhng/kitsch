@@ -1,16 +1,19 @@
 code {
+  color: #fff;
     background: $darkish-blue;
-    border-radius:1rem;
-    font-size: 86%;
+    border-radius:.5rem;
     margin: 0 0.5rem;
-    padding: 0.2rem 0.5rem;
+    padding: 1rem;
     white-space: nowrap;
+    word-wrap: break-word;
 }
 
 pre {
+  color: white;
     background: $darkish-blue;
     overflow-y: hidden;
-    &:code {
+    border-radius: .5rem;
+    code {
         border-radius: 0;
         display: block;
         padding: 1rem 5rem;

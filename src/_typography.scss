@@ -4,10 +4,10 @@ strong {
 }
 
 h1,
-h2, 
-h3, 
-h4, 
-h5, 
+h2,
+h3,
+h4,
+h5,
 h6 {
     font-weight: 300;
     margin-top: 0;
@@ -49,4 +49,14 @@ p {
     color: $text-secondary;
 }
 
+.title {
+  font-weight: 700;
+}
 
+.highlight {
+  font-weight: 700;
+  background-image: linear-gradient(45deg, $purp, $blue);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
