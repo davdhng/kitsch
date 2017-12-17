@@ -6,9 +6,11 @@
 
 ## How to Install
 __Install with NPM__
+
 `$ npm install kitsch-css`
 
 __Use the CDN__
+
 ```html
 <link rel="stylesheet" href="https://unpkg.com/kitsch-css" />
 ```
